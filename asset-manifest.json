@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dindin/static/css/main.073c9b0a.css",
+    "main.js": "/Dindin/static/js/main.bf173610.js",
+    "static/js/787.69a82d74.chunk.js": "/Dindin/static/js/787.69a82d74.chunk.js",
+    "static/media/logo.svg": "/Dindin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Dindin/index.html",
+    "main.073c9b0a.css.map": "/Dindin/static/css/main.073c9b0a.css.map",
+    "main.bf173610.js.map": "/Dindin/static/js/main.bf173610.js.map",
+    "787.69a82d74.chunk.js.map": "/Dindin/static/js/787.69a82d74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bf173610.js"
+  ]
+}
