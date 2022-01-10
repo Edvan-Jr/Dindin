@@ -1,0 +1,92 @@
+.backdrop-modal {
+  position: fixed;
+  inset: 0;
+
+  background-color: rgba(61, 61, 61, 0.48);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-modal {
+  background-color: #FFF;
+
+  border-radius: 20px;
+
+  padding: 30px 33px;
+
+  font-family: 'Rubik', sans-serif;
+}
+
+.header-modal {
+  margin-bottom: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-modal h2 {
+  font-size: 30px;
+}
+
+.btn-close {
+  cursor: pointer;
+}
+
+.btns-credit-debit {
+  margin-bottom: 25px;
+}
+
+#btn-credit, #btn-debit  {
+  width: 220px;
+
+  padding: 12px 0;
+  
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+
+#btn-credit {
+  background: linear-gradient(91.26deg, #05EDE3 0%, #3A9FF1 97.77%);
+
+  border-radius: 10px 0px 0px 10px;
+}
+
+#btn-debit {
+  background: linear-gradient(91.66deg, #FA8C10 0%, #FF576B 90.32%);
+
+  border-radius: 0px 10px 10px 0px;
+}
+
+.input-label {
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  text-align: left;
+}
+
+.input-label input {
+  height: 40px;
+
+  border: 1px solid #555555;
+  border-radius: 5px;
+}
+
+.btn-insert {
+  background-color: #645FFB;
+
+  margin-top: 10px;
+  padding: 12px 60px;
+
+  border-radius: 5px;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  color: #FFF;
+}

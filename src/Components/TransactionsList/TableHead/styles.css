@@ -1,0 +1,21 @@
+.table-head {
+  width: 975px;
+
+  background-color: #FAFAFA;
+
+  padding: 18px 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.column-title {
+  width: 150px;
+
+  text-align: center;
+}
