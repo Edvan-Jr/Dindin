@@ -7,15 +7,16 @@ import UserContext from './Contexts/UserContext';
 function App() {
   const [modal, setModal] = useState(false);
   const [transactions, setTransactions] = useState([]);
-  const valuesProvider = { modal, setModal, transactions, setTransactions };
+  const [resumo, setResumo] = useState({ credit: 0, debit: 0, balance: 0 });
+  const valuesProvider = { modal, setModal, transactions, setTransactions, resumo, setResumo };
 
   useEffect(() => {
     loadTransactions();
   }, []);
 
-  // useEffect(() => {
-  //   console.log(transactions);
-  // }, [transactions]);
+  useEffect(() => {
+    console.log(resumo);
+  }, [resumo]);
 
   async function loadTransactions() {
     try {
@@ -30,6 +31,22 @@ function App() {
       console.log(error);
     }
   }
+
+  useEffect(() => {
+    const sumCredit = transactions.reduce((acum, item) => {
+      return item.type === 'credit' ? acum + Number(item.value) : acum + 0;
+    }, 0);
+
+    const sumDebit = transactions.reduce((acum, item) => {
+      return item.type === 'debit' ? acum + Number(item.value) : acum + 0;
+    }, 0);
+
+    setResumo({
+      credit: sumCredit,
+      debit: sumDebit,
+      balance: sumCredit - sumDebit
+    });
+  }, [transactions]);
 
   return (
     <UserContext.Provider value={valuesProvider}>
