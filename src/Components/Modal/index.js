@@ -1,7 +1,11 @@
 import './styles.css';
 import btnClose from '../../Assets/icon-close.svg';
+import { useContext } from 'react';
+import UserContext from '../../Contexts/UserContext';
 
-function Modal({ setModal }) {
+function Modal() {
+  const { setModal } = useContext(UserContext);
+
   return (
     <div className="backdrop-modal">
       <div className="container-modal">

@@ -3,10 +3,11 @@ import Filtro from '../Filtro';
 import TransactionsList from '../TransactionsList';
 import Resumo from '../Resumo';
 import Modal from '../Modal';
-import { useState } from 'react';
+import { useContext } from 'react';
+import UserContext from '../../Contexts/UserContext';
 
 function Main() {
-  const [modal, setModal] = useState(false);
+  const { modal, setModal } = useContext(UserContext);
 
   return (
     <div className="container-main">
@@ -18,7 +19,7 @@ function Main() {
         <Resumo />
         <button className='btn-add' onClick={() => setModal(true)}>Adicionar Registro</button>
       </div>
-      {modal && <Modal setModal={setModal} />}
+      {modal && <Modal />}
     </div>
   );
 }
