@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Dindin/static/css/main.09382d47.css",
-    "main.js": "/Dindin/static/js/main.8b015e21.js",
+    "main.css": "/Dindin/static/css/main.ee2a57cb.css",
+    "main.js": "/Dindin/static/js/main.6836bd47.js",
     "static/media/Logo.svg": "/Dindin/static/media/Logo.eb436af9461f197ff78d2536ec19ff77.svg",
     "static/media/icon-filtro.svg": "/Dindin/static/media/icon-filtro.a7133bf881829875b44576e20f6da84f.svg",
     "static/media/icon-close.svg": "/Dindin/static/media/icon-close.8b1213514734016345075a2343cb1ec9.svg",
     "static/media/icon-lixo.svg": "/Dindin/static/media/icon-lixo.4b2f7c26a764d0257d4aa2b8783166c8.svg",
     "index.html": "/Dindin/index.html",
     "static/media/icon-edit.svg": "/Dindin/static/media/icon-edit.099c43153bb8f040dddbb26f3071fa85.svg",
-    "main.09382d47.css.map": "/Dindin/static/css/main.09382d47.css.map",
-    "main.8b015e21.js.map": "/Dindin/static/js/main.8b015e21.js.map"
+    "main.ee2a57cb.css.map": "/Dindin/static/css/main.ee2a57cb.css.map",
+    "main.6836bd47.js.map": "/Dindin/static/js/main.6836bd47.js.map"
   },
   "entrypoints": [
-    "static/css/main.09382d47.css",
-    "static/js/main.8b015e21.js"
+    "static/css/main.ee2a57cb.css",
+    "static/js/main.6836bd47.js"
   ]
 }
